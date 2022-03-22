@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+</head>
+<style>
+    body{
+        background-image: url(web1.webp);
+        background-position:center;
+        background-repeat: no-repeat;
+    }
+    #input {
+        margin-top: 10%;
+    }
+
+    #btn {
+        padding: 30px;
+
+    }
+</style>
+
+<body>
+    <div >
+        <div align="center" id="input">
+            <input placeholder="enter num1" id="num1" />
+            <input placeholder="enter num2" id="num2" />
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div align="center" id="btn">
+            <button onclick="add()">
+                Add
+            </button>
+            <button onclick="subtract()">
+                subtract
+            </button>
+            <button onclick="multiply()">
+                multiply
+            </button>
+            <button onclick="divide()">
+                divide
+            </button>
+        </div>
+    </div>
+
+    <div id="ans">
+    </div>
+
+
+    <script src="cal.js"></script>
+</body>
+
+</html>
