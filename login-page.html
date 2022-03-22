@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body {
+            background: url("black.jpg");
+        }
+
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        .text {
+            color: white;
+
+        }
+
+        .main {
+            width: 80vw;
+            max-width: 375px;
+            margin: auto;
+            padding: 10px;
+            background-color: rgba(62, 61, 61, 0.877);
+            line-height: 2;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px black;
+            /* border: 1px solid red; */
+        }
+
+        img {
+            border-radius: 100%;
+            border: 1px solid #ddd;
+            size: 10px;
+            padding: 5px;
+            width: 150px;
+            max-width: 100%;
+            height: 120px;
+        }
+
+        .header {
+
+            padding: 50px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+
+        }
+
+
+        footer {
+            text-align: center;
+        }
+
+        footer p {
+            margin-top: 5px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="home_page.html">
+        <div class="header">
+            <img src="maruti-logo.jpg" alt="Avatar" class="avatar">
+            <p><b> MARUTI AUTOMOBILES </b></p>
+        </div>
+        <div class="main" align="center">
+            <h2>LOGIN!</h2>
+
+            <label for="name" style="color: white"> <b> USER NAME:</b> </label>
+            <input type="text" name="myname" id="name" placeholder="Enter Name">
+
+            <br>
+            <br>
+
+            <label for="pswd" style="color: white;"><b> PASSWORD : </b> </label>
+            <input type="password" name="mypassword" id="pswd" placeholder="Enter Password">
+            <br>
+            <br>
+
+            <label style="color: white">
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+            <button type="submit">Login</button>
+        </div>
+
+        <br>
+        <br>
+
+        <div align="center" style="color: white">
+            <footer class="foot">
+                <p>Already a user ? <a href="login">Login!</a><br>
+                    &copy; | All Rights Reserved Since 1945</p>
+            </footer>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

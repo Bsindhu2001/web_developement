@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+    body {
+        background: url("black.jpg");
+    }
+
+    .button {
+        background-color: #4c5eaf;
+        border: solid white;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    img {
+        border-radius: 100%;
+        border: 1px solid #ddd;
+        size: 5px;
+        padding: 2px;
+        width: 150px;
+        max-width: 80%;
+        height: 50px;
+    }
+
+    .header {
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        background-image: url("ca.jpg");
+        border-bottom: 5px solid rgb(250, 250, 250);
+    }
+
+    .foot {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        /* Height of the footer */
+
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0 15px;
+    }
+
+    th {
+        background-color: #4287f5;
+        color: white;
+    }
+
+    th,
+    td {
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    h2 {
+        color: #4287f5;
+    }
+</style>
+
+<body>
+    <form action="content_page.html">
+        <div class="header">
+            <img src="maruti-logo.jpg" alt="Avatar" class="avatar">
+            <p><b> MARUTI AUTOMOBILES </b></p>
+            <form action="regester_page.html">
+                <button class="button" type="submit" style="float: right;">Register</button>
+            </form>
+            <form action="assignment1.html">
+                <button class="button" type="submit" style="float: right;">Login</button>
+            </form>
+
+        </div>
+
+        <div align="center">
+            <table border="10px" style="color: white;">
+
+                <tr>
+                    <td>Thought<br>
+                        <p>Honesty is key to success</p>
+                    </td>
+                    <td><img src="maruti-logo.jpg" height="200" width="200"></td>
+                    <td>Announcement<br>
+                        <ol>
+                            <li>New event is going to be organized</li>
+                            <li>School of computer Application organizing coding event on 19-feb</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="3">Copyright Information</th>
+                </tr>
+                <tr>
+                    <form action="content_page.html">
+                        <th colspan="3"><button ac>Redirect to content</button></th>
+                    </form>
+                </tr>
+            </table>
+        </div>
+
+        <div align="center" style="color: white">
+            <footer class="foot">
+                <p>Already a user ? <a href="login">Login!</a><br>
+                    &copy; | All Rights Reserved Since 1945</p>
+            </footer>
+        </div>
+    </form>
+</body>
+
+</html>

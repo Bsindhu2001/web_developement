@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content_page</title>
+    <style>
+        body {
+            background: url("black.jpg");
+        }
+
+        .main {
+            width: 80vw;
+            max-width: 375px;
+            margin: auto;
+            padding: 10px;
+            background-color: rgba(62, 61, 61, 0.877);
+            line-height: 2;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px black;
+            /* border: 1px solid red; */
+        }
+
+        .text {
+            color: white;
+        }
+
+        .header {
+
+            padding: 5px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            border: 3px;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+
+<body>
+    <form action="last_page.html">
+        <div class="header">
+
+            <p><b> WELCOME TO MARUTI AUTOMOBILES </b></p>
+        </div>
+        <div>
+            <div class=" main" align="center">
+                <h2 style="color: white;"> ENTER DETAILS !</h2>
+                <label for="name" style="color: white"> <b>NAME:</b></label><br>
+                <input type="text" name="myname" id="name" placeholder="Enter Name">
+                <br>
+
+                <label for="name" style="color: white"><b>ADDRESS:</b></label><br>
+                <input type="text" name="myname" id="name" placeholder="Enter Address">
+                <br>
+
+                <label for="car" style="color: white;"> <b> PRODUCT:</b></label><br>
+                <select name="mycar" id="car">
+                    <option>Swift</option>
+                    <option>Breeza</option>
+                    <option>Celerio</option>
+                    <option>Ertiga</option>
+
+                </select>
+                <select name="mycar" id="car">
+                    <option>LXI</option>
+                    <option>VXI</option>
+                    <option>ZXI</option>
+                    <option>ZXI+</option>
+                </select>
+                <br>
+                <label for="name" style="color: white"><b>INSURANCE:</b></label><br>
+                Yes:<input type="radio" name="r1">
+                No:<input type="radio" name="r1">
+                <br>
+                <label for="name" style="color: white"><b>ASSCESSORIES:</b></label><br>
+                <label for="eligibel" style="color: white;"> Seatcover:</label>
+                <input type="checkbox" name="eligibality" id="eligibel">
+                <label for="eligibel" style="color: white;">Dooewieser:</label>
+                <input type="checkbox" name="eligibality" id="eligibel">
+                <label for="eligibel" style="color: white;">Stearingbealt:</label>
+                <input type="checkbox" name="eligibality" id="eligibel">
+                <br>
+                <label for="name" style="color: white"><b> RTO REGISTRATION:</b></label><br>
+                <select name="RTO" size="5">
+                    <option value="Nainital"> Nainital </option>
+                    <option value="US nagar"> US nagar</option>
+                    <option value="Champawat"> Champawat </option>
+                    <option value="Kashipur">Kashipur </option>
+                    <option value="Ramnagar"> Ramnagar </option>
+                    <option value="Ford"> Ford </option>
+                </select>
+                <br>
+                <br>
+                <button>Submit</button>
+
+            </div>
+    </form>
+</body>
+
+</html>
